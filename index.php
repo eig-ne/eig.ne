@@ -11,6 +11,7 @@
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
   <script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async=""></script>
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
+  <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CLora%7CLato" rel="stylesheet">
   <style amp-custom=""><?php require 'css/style.php'; ?></style>
@@ -44,7 +45,7 @@
 
   <main id="content" role="main">
     <article class="px3">
-      <h2 id="story" class="my4 anchored">Our Story</h2>
+      <h2 id="story" class="my4 anchored green-title">Our Story</h2>
       <p class="mb1 ampstart-dropcap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus suscipit dictum. Duis posuere magna eget congue sodales. Maecenas auctor, ipsum at convallis tincidunt, nibh sem feugiat purus, et dapibus justo metus sit amet ante. Sed eu turpis sodales, convallis orci vel, congue tortor. Ut in ornare eros. Mauris nec faucibus libero. Pellentesque in magna justo. Aenean varius eleifend ante vel euismod.</p>
       <p class="mb1">Nulla egestas est in dui iaculis, at placerat nibh tincidunt. Curabitur at elit sit amet magna finibus congue. Donec non ante bibendum, tempus mauris at, pharetra lorem. Pellentesque lobortis in eros ac tincidunt. Praesent eu nisl sit amet massa suscipit faucibus a eu augue. Donec ipsum est, interdum non blandit vitae, bibendum vitae tellus. Suspendisse ultrices mollis elit, in hendrerit tellus pharetra vitae. Proin sed lectus maximus mauris tristique bibendum id vel sem. Curabitur sollicitudin ligula et purus dictum euismod. Donec tempus lacus in iaculis iaculis.</p>
       <p class="mb1">Suspendisse eu aliquet libero. Aenean malesuada vestibulum iaculis. Curabitur vitae ipsum interdum, feugiat odio non, lacinia nibh. Nulla vitae volutpat massa. Curabitur porttitor viverra massa, id lacinia est ornare non. Aliquam erat volutpat. Integer lobortis dictum dolor, at convallis nulla lacinia vitae. Cras sit amet placerat lectus. Vestibulum pulvinar finibus dui eget egestas. Quisque et sagittis urna. Nulla facilisi. Nunc malesuada, arcu quis volutpat hendrerit, dui libero eleifend ipsum, sit amet hendrerit dui ligula nec enim. Nunc dictum efficitur tempus. Fusce suscipit feugiat tellus, ac bibendum nunc semper suscipit.</p>
@@ -60,7 +61,21 @@
         <!-- End Image with heading -->
       </div>
 
-      <h2 id="locations" class="my4 anchored">Locations &amp; Hours</h2>
+      <h2 class="my4 anchored green-title">Questions</h2>
+      <article class="my4">
+        <amp-accordion id="accordion-questions">
+          <section class="mb1">
+            <h2 class="pl2">Section 1</h2>
+            <div class="p2">Content in section 1.</div>
+          </section>
+          <section class="mb1">
+            <h2 class="pl2">Section 2</h2>
+            <div class="p2">Content in section 2.</div>
+          </section>
+        </amp-accordion>
+      </article>
+
+      <h2 id="locations" class="my4 anchored green-title">Locations &amp; Hours</h2>
       <div class="col col-12 sm-col-6 mb4">
         <h3 class="mb1">San Francisco</h3>
         <p class="mb0">123 E Somewhere St.,<br>San Francisco, CA<br></p>
@@ -72,7 +87,7 @@
         <p class="mb0">Mon-Thu 11am–2pm, 4pm–9pm<br>Fri-Sun 11am–3pm, 4pm–11pm<br></p>
       </div>
 
-      <h2 id="gallery" class="my4 anchored">Photo Gallery</h2>
+      <h2 id="gallery" class="my4 anchored green-title">Photo Gallery</h2>
       <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
       <amp-carousel class="my2 mxn3" height="200" layout="fixed-height" type="carousel">
         <amp-img src="images/hero.jpg" width="300" height="200" alt="Dining area" on="tap:lightbox" role="button" tabindex="0"></amp-img>
