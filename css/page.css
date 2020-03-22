@@ -1,0 +1,45 @@
+body {
+  background: #fff;
+  color: #000;
+  font-family: Lora,serif;
+  min-width: 315px;
+  overflow-x: hidden;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto
+}
+
+p {
+  padding: 0;
+  margin: 0
+}
+
+.h1,.h2,.h3,h1,h2,h3 {
+  font-family: Playfair Display,serif
+}
+
+.h1,h1 {
+  letter-spacing: .1px
+}
+
+.h2,h2 {
+  letter-spacing: 0
+}
+
+.h3,h3 {
+  letter-spacing: .3px
+}
+
+.h4,.h5,.h6,h4,h5,h6 {
+  font-family: Lato,sans-serif;
+  letter-spacing: 0
+}
+
+.anchored {
+  margin-top: -5.5rem;
+  padding-top: 5.5rem
+}
