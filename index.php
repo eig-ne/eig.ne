@@ -1,44 +1,40 @@
 <!doctype html>
-<html ⚡="">
+<html ⚡>
 <head>
   <meta charset="utf-8">
-  <title>Beck &amp; Galo</title>
+  <title>EIG.ne</title>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="theme-color" content="#84CD86">
-  <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
 
-  <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-  <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
-  <script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async=""></script>
-  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
+  <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
+  <script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async></script>
+  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CLora%7CLato" rel="stylesheet">
-  <style amp-custom=""><?php require 'css/style.php'; ?></style>
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <style amp-custom><?php require 'css/style.php'; ?></style>
 </head>
 <body>
 
   <?php require 'includes/navbar.php'; ?>
 
   <div class="center">
-
     <!-- Start Fullpage Hero -->
     <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-      <amp-img width="404" height="720" alt="Welcome to Beck &amp; Galo Modern American Cuisine" layout="responsive" src="images/hero.jpg" media="(max-width: 415px)"></amp-img>
-      <amp-img height="720" alt="Welcome to Beck &amp; Galo Modern American Cuisine" layout="fixed-height" src="images/hero.jpg" media="(min-width: 416px)"></amp-img>
+      <amp-img width="404" height="720" alt="EIG Niger" layout="responsive" src="images/hero.jpg" media="(max-width: 415px)"></amp-img>
+      <amp-img height="667" alt="EIG Niger" layout="fixed-height" src="images/hero.jpg" media="(min-width: 416px)"></amp-img>
       <figcaption class="absolute top-0 right-0 bottom-0 left-0">
-        <header class="p3">
-          <h1 class="ampstart-fullpage-hero-heading mb3">
+        <header class="p4">
+          <h1 class="ampstart-fullpage-hero-heading">
             <span class="ampstart-fullpage-hero-heading-text">
-              <span class="h6 block caps">Welcome to</span><span class="h1 block bold caps my1">Beck & Galo</span><span class="h6 block caps">Modern American Cuisine</span>
+              <span class="h1 block bold caps my1">EIG.ne</span><span class="h3 block">Le numérique, au service des citoyens</span>
             </span>
           </h1>
-
         </header>
-        <footer class="absolute left-0 right-0 bottom-0">
-          <a class="ampstart-btn inline-block ampstart-fullpage-hero-cta h5 m3 text-decoration-none" href="#">View Menu</a>
-        </footer>
       </figcaption>
     </figure>
     <!-- End Fullpage Hero -->
@@ -54,44 +50,37 @@
       <div class="my4 mxn3 center">
         <!-- Start Image with heading -->
         <figure class="ampstart-image-with-heading  m0 relative mb4">
-          <amp-img src="images/bar.jpg" width="600" height="450" alt="Happy Hour Monday through Friday 5 PM" layout="responsive"></amp-img>
+          <!-- Image: https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9 -->
+          <amp-img src="images/working.jpg" width="600" height="400" alt="Homme et femme travaillant" layout="responsive"></amp-img>
           <figcaption class="absolute right-0 bottom-0 left-0">
-            <header class="ampstart-image-heading px2 py2 line-height-4"><h2 class="h1 bold">Happy Hour</h2><p class="h4">Mon-Fri 5PM</p></header>
+            <header class="ampstart-image-heading px2 py4">
+              <h2 class="h1 bold">Au service des autres</h2>
+            </header>
           </figcaption>
         </figure>
         <!-- End Image with heading -->
       </div>
 
       <h2 class="my4 anchored green-title">Questions</h2>
+      <p>
+        Nulla egestas est in dui iaculis, at placerat nibh tincidunt. Curabitur at elit sit amet magna finibus congue. Donec non ante bibendum, tempus mauris at, pharetra lorem. Pellentesque lobortis in eros ac tincidunt. Praesent eu nisl sit amet massa suscipit faucibus a eu augue.
+      </p>
       <article class="my4">
         <amp-accordion id="accordion-questions">
           <section class="mb1">
-            <h2 class="pl2">Section 1</h2>
+            <h3 class="pl2">Section 1</h3>
             <div class="p2">Content in section 1.</div>
           </section>
           <section class="mb1">
-            <h2 class="pl2">Section 2</h2>
+            <h3 class="pl2">Section 2</h3>
             <div class="p2">Content in section 2.</div>
           </section>
         </amp-accordion>
       </article>
 
-      <h2 id="locations" class="my4 anchored green-title">Locations &amp; Hours</h2>
-      <div class="col col-12 sm-col-6 mb4">
-        <h3 class="mb1">San Francisco</h3>
-        <p class="mb0">123 E Somewhere St.,<br>San Francisco, CA<br></p>
-        <p class="mb0">Mon-Thu 11am–2pm, 4pm–9pm<br>Fri-Sun 11am–3pm, 4pm–12am<br></p>
-      </div>
-      <div class="col col-12 sm-col-6 mb4">
-        <h3 class="mb1">San Jose</h3>
-        <p class="mb0">123 S Elsewhere St.,<br>San Jose, CA<br></p>
-        <p class="mb0">Mon-Thu 11am–2pm, 4pm–9pm<br>Fri-Sun 11am–3pm, 4pm–11pm<br></p>
-      </div>
-
       <h2 id="gallery" class="my4 anchored green-title">Photo Gallery</h2>
       <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
       <amp-carousel class="my2 mxn3" height="200" layout="fixed-height" type="carousel">
-        <amp-img src="images/hero.jpg" width="300" height="200" alt="Dining area" on="tap:lightbox" role="button" tabindex="0"></amp-img>
         <amp-img src="images/bar.jpg" width="267" height="200" alt="Bar area" on="tap:lightbox" role="button" tabindex="0"></amp-img>
         <amp-img src="images/waffles.jpg" width="300" height="200" alt="Caramel Banana Waffles" on="tap:lightbox" role="button" tabindex="0"></amp-img>
         <amp-img src="images/soup.jpg" width="300" height="200" alt="Pumpkin Soup" on="tap:lightbox" role="button" tabindex="0"></amp-img>
@@ -100,6 +89,5 @@
       </amp-carousel>
     </article>
   </main>
-  <?php require 'includes/footer.php'; ?>
-</body>
-</html>
+
+<?php require 'includes/footer.php'; ?>
