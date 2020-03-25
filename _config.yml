@@ -1,6 +1,7 @@
 url: "https://eig-niger.antoine-augusti.fr"
 baseurl: ""
 title: "EIG.ne"
+lang: fr
 
 sass:
     style: compressed
