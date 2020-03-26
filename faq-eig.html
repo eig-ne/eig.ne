@@ -3,18 +3,9 @@ layout: default
 title: "Foire aux questions - EIG"
 ---
 
-<h2 class="my4 anchored green-title">Questions</h2>
+<h2 class="my4 anchored green-title">Foire aux questions - EIG</h2>
 <p>
-  Nulla egestas est in dui iaculis, at placerat nibh tincidunt. Curabitur at elit sit amet magna finibus congue. Donec non ante bibendum, tempus mauris at, pharetra lorem. Pellentesque lobortis in eros ac tincidunt. Praesent eu nisl sit amet massa suscipit faucibus a eu augue.
+  Vous trouverez sur cette page les questions les plus communes à destination des entrepreneurs du programme.
 </p>
 
-<article class="my4">
-  <amp-accordion id="accordion-questions">
-    {% for faq in site.data.faq-eig %}
-      <section class="mb2">
-        <h3 class="pl2">{{ faq.question }}</h3>
-        <div class="p2">{{ faq.reponse }}</div>
-      </section>
-    {% endfor %}
-  </amp-accordion>
-</article>
+{% include faq.html questions=site.data.faq-eig %}
