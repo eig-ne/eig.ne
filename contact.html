@@ -1,0 +1,44 @@
+---
+layout: default
+title: "Nous contacter"
+---
+
+<h2 class="my4 anchored green-title">Nous contacter</h2>
+
+<p>
+  Remplissez ce formulaire pour toute demande. Nous répondrons dans les plus brefs délais à votre message.
+</p>
+
+<form method="POST" class="block mt3 ampstart-form" action="https://formspree.io/antoine.augusti@gmail.com">
+  <p id="thanks" style="display: none;">
+    Merci de nous avons contacté, nous vous répondrons
+    dans les meilleurs délais.
+  </p>
+
+  <div class="ampstart-input block relative m0 p0 mb4">
+    <input id="name" class="block border-none p0 m0" name="name" placeholder="Nom" type="text">
+    <label for="name" class="absolute right-0 bottom-0 left-0" aria-hidden="true">Votre nom</label>
+  </div>
+
+  <div class="ampstart-input block relative m0 p0 mb4">
+    <input id="language" type="hidden" name="_language" value="fr">
+    <label for="language" style="display: none">Langue</label>
+  </div>
+
+  <div class="ampstart-input block relative m0 p0 mb4">
+    <input id="email" class="block border-none p0 m0" name="email" placeholder="Adresse e-mail" type="text">
+    <label for="email" class="absolute right-0 bottom-0 left-0" aria-hidden="true">Votre adresse e-mail</label>
+  </div>
+
+  <div class="ampstart-input block relative m0 p0 mb4">
+    <input id="subject" class="block border-none p0 m0" name="subject" placeholder="Sujet" type="text">
+    <label for="subject" class="absolute right-0 bottom-0 left-0" aria-hidden="true">Votre sujet</label>
+  </div>
+
+  <div class="ampstart-input block relative m0 p0 mb4">
+    <textarea rows="3" id="message" class="block border-none p0 m0" name="message" placeholder="Message"></textarea>
+    <label for="message" class="absolute right-0 bottom-0 left-0" aria-hidden="true">Votre message</label>
+  </div>
+
+  <input class="ampstart-btn" type="submit" value="Envoyer">
+</form>

@@ -41,6 +41,23 @@ p {
   padding: 0 1rem .2rem;
 }
 
+.ampstart-form {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ampstart-input {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ampstart-input > label {
+  color: #000;
+  top: -1em;
+}
+
 .h1,.h2,.h3,h1,h2,h3 {
   font-family: Playfair Display, serif;
 }
