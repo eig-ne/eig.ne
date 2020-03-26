@@ -1,0 +1,26 @@
+- question: "Comment savoir si je ferais mieux de recruter 2 ou 3 EIG ?"
+  reponse: "<p>Cela dépend du périmètre de votre défi et des compétences que vous recherchez. À noter : dans la plupart des cas, les équipes sont constituées de 2 EIG.<p>"
+
+- question: "Je manque de compétences techniques : comment définir les profils d’EIG dont j’ai besoin pour réaliser mon défi ?"
+  reponse: "<p>Vous pouvez en premier lieu prendre contact avec votre direction des systèmes d'information.</p><p>Par ailleurs, vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">prendre contact avec nous</a>. Nous essayerons autant que possible de vous mettre en relation avec des personnes pouvant vous aider dans votre administration.</p><p>Enfin, ne vous inquiétez pas si vous n’êtes pas tout à fait sûr des compétences recherchées : si votre défi est sélectionné, les profils EIG recherchés seront retravaillés et précisés avec vous avant le lancement de l’appel à candidatures.</p>"
+
+- question: "Quel est le type de contrat des EIG ?"
+  reponse: "<p>TODO</p>"
+
+- question: "À la charge de qui sont les frais annexes liés à la présence des EIG, de type frais de déplacement ?"
+  reponse: "<p>Les autres frais liés à la présence des EIG (notamment les frais de déplacement) sont à la charge de l’administration d’accueil.</p>"
+
+- question: "Quel est généralement le profil des mentors opérationnels ? Quel est leur rôle ?"
+  reponse: "<p>Les mentors opérationnels sont en charge de permettre aux EIG de mener au mieux leur défi, en les orientant dans l’administration, en s’assurant qu’ils disposent de toutes les ressources nécessaires (notamment techniques et en données), et en facilitant les démarches juridiques et administratives éventuelles.</p><p>En général, les mentors opérationnels ont un profil « métier », et peuvent faire bénéficier les EIG de leur expérience du terrain.</p><p>On attend surtout d’un mentor qu’il soit passionné par le défi EIG qu’il porte. Le temps hebdomadaire investi dans le défi EIG sera un élément important d’appréciation des défis. En moyenne, les mentors investissent 30 à 40% de leur temps dans leur défi EIG (et certains en investissent 100% !).</p>"
+
+- question: "Le défi peut-il être encadré par 2 mentors opérationnels ?"
+  reponse: "<p>Oui, tout à fait !</p>"
+
+- question: "Combien de temps prend la constitution d’un dossier de réponse à l’appel à candidature ?"
+  reponse: "<p>Le temps de constitution est variable, mais nous avons volontairement limité la longueur du dossier : n’hésitez pas à être précis et concis !</p>"
+
+- question: "En cas de sélection, comment se passe le jury d’admission ?"
+  reponse: "<p>Les mentors opérationnels des défis présélectionnés seront conviés à pitcher leur défi devant le jury d’admission, notamment en utilisant les slides jointes au dossier de réponse à l’appel à projets (qui peuvent être modifiées entre temps).</p><p>Plus d’informations seront envoyées aux administrations présélectionnées.</p>"
+
+- question: "Vous n’avez pas trouvé de réponse à votre question ?"
+  reponse: "<p>Vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">nous contacter</a> et nous vous répondrons rapidement</p>"
