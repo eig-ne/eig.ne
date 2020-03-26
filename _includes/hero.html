@@ -1,6 +1,5 @@
-{% if page.hero == true %}
+{% if page.hero %}
 <div class="center">
-  <!-- Start Fullpage Hero -->
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
     <amp-img width="404" height="720" alt="EIG Niger" layout="responsive" src="{% link /assets/images/hero.jpg %}" media="(max-width: 415px)"></amp-img>
     <amp-img height="667" alt="EIG Niger" layout="fixed-height" src="{% link /assets/images/hero.jpg %}" media="(min-width: 416px)"></amp-img>
@@ -14,6 +13,5 @@
       </header>
     </figcaption>
   </figure>
-  <!-- End Fullpage Hero -->
 </div>
 {% endif %}
