@@ -7,6 +7,18 @@
 - question: "Quel est le type de contrat des EIG ?"
   reponse: "<p>TODO</p>"
 
+- question: "Quels sont les engagements que je dois respecter en participant au programme ?"
+  reponse: "<p>Pour participer au programme EIG et afin d'assurer le succès des défis, il est demandé aux administrations de :
+    <ul>
+    <li>Proposer un cadre de travail propice aux entrepreneurs (matériel, autonomie, ouverture)</li>
+    <li>Participer au programme d’accompagnement mis en place par l’ANSI</li>
+    <li>Assurer la disponibilité des DSI pour intégrer et maintenir les développements</li>
+    <li>Assurer du portage de haut niveau</li>
+    <li>Garantir la mise à disposition en open source des développements réalisés</li>
+    <li>Valoriser les résultats des développements réalisés dans des actions de communication ou événements organisés à l’initiative de l’ANSI</li>
+    </ul>
+    </p>"
+
 - question: "À la charge de qui sont les frais annexes liés à la présence des EIG, de type frais de déplacement ?"
   reponse: "<p>Les autres frais liés à la présence des EIG (notamment les frais de déplacement) sont à la charge de l’administration d’accueil.</p>"
 
