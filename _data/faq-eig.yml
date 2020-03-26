@@ -1,6 +1,15 @@
 - question: "Qui peut participer ?"
   reponse: "<p>Le programme EIG est ouvert à toute personne, startup et petites et moyennes entreprises. Il n’est pas possible pour les agents en fonction dans l’administration et aux membres du jury de participer au programme en tant qu’entrepreneur (voir le règlement du programme pour plus d’informations).</p><p>Nous recherchons principalement des candidats disposant d’une certaine expérience (environ 5 ans), mais des profils moins expérimentés ayant déjà mené des projets entrepreneuriat ou associatifs sont également les bienvenus.</p>"
 
+- question: "Quels sont les profils d’entrepreneurs attendus ?"
+  reponse: "<p>Pour répondre aux projets proposés par les administrations, les entrepreneurs doivent justifier de compétences numériques et/ou d’expériences entrepreneuriales. Parmi les compétences attendues :
+    <ul>
+      <li>Design : design UX/UI, design de services</li>
+      <li>Développement informatique : web/mobile, front/back/full stack, devops</li>
+      <li>Analyse de données : data-visualisation, data-science, géomatique, IA, etc.</li>
+      </ul>
+    </p>"
+
 - question: "Combien de temps dure un défi ?"
   reponse: "<p>Le défi dure une période de 7 mois, d'août 2020 à février 2021. Pendant ce temps, les entrepreneurs se consacrent exclusivement au programme à temps plein, sans avoir d'autres engagements professionnels.</p>"
 
