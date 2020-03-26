@@ -3,6 +3,7 @@ baseurl: ""
 title: "EIG.ne"
 lang: fr
 email: contact@eig.ne
+twitter: # TODO
 
 sass:
     style: compressed
