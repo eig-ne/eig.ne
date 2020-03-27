@@ -8,23 +8,23 @@ title: "Projets du programme EIG.ne"
 <div class="clearfix mb4">
   {% for projet_hash in site.data.projets %}
   {% assign projet = projet_hash[1] %}
-  <div class="col col-12 sm-col-6 px1 my4 center">
-    <a href="{{ projet.link_to }}" title="Lien vers le projet {{ projet.title }}">
-      <amp-img src="{{ projet.image }}"
-      width="150"
-      height="150"
-      alt="Logo du projet {{ projet.title }}"
-      noloading></amp-img>
-    </a>
-    <a href="{{ projet.link_to }}" title="Lien vers le projet {{ projet.title }}" class="no-underline">
-      <h2 class="mt1 orange center">{{ projet.title }}</h2>
-    </a>
-    <p class="h4 mb2">
-      {{ projet.administration }}
-    </p>
-    <p>
-      {{ projet.description }}
-    </p>
+  <div class="col col-12 sm-col-6 px1 my1 center">
+    <div class="card py3 px2">
+      <a href="{{ projet.link_to }}" class="no-underline" title="Lien vers le projet {{ projet.title }}">
+        <amp-img src="{{ projet.image }}"
+        width="150"
+        height="150"
+        alt="Logo du projet {{ projet.title }}"
+        noloading></amp-img>
+        <h2 class="mt1 orange">{{ projet.title }}</h2>
+        <h4 class="mb2">
+          {{ projet.administration }}
+        </h4>
+        <p>
+          {{ projet.description }}
+        </p>
+      </a>
+    </div>
   </div>
   {% endfor %}
 </div>
