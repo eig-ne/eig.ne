@@ -1,0 +1,30 @@
+"Foobar":
+  image: /assets/images/projets/1/foobar.svg
+  title: "Foobar"
+  link_to: /projets/2020/foobar.html
+  skills: "Web // Design"
+  description: "Simplifier les démarches des cotisants à l’aide des données des Urssaf"
+  promotion: 1
+  duration_months: 7
+  administration: "Ministère de l'Intérieur"
+  administration_website: "https://example.com"
+"Lorem":
+  image: /assets/images/projets/1/education.svg
+  title: "Lorem"
+  link_to: /projets/2020/lorem.html
+  skills: "Web // Design"
+  description: "Offrir un environnement de travail ouvert à la population"
+  promotion: 1
+  duration_months: 7
+  administration: "Ministère de l'éducation"
+  administration_website: "https://example.com"
+"Dolor Ipsum":
+  image: /assets/images/projets/1/peche.svg
+  title: Dolor Ipsum
+  link_to: /projets/2020/dolor-ipsum.html
+  skills: "Web // Design"
+  description: "Mettre fin à la surconsommation de viande"
+  promotion: 1
+  duration_months: 7
+  administration: "Ministère de l'agriculture"
+  administration_website: "https://example.com"

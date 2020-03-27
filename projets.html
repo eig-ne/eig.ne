@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Projets du programme EIG.ne"
+---
+
+<h2 class="mb4 anchored green-title">Projets du programme EIG.ne</h2>
+<p class="mb1">Retrouvez ci-dessous tous les projets réalisés dans le cadre du programme EIG.ne.</p>
+
+<div class="clearfix mb4">
+  {% for projet_hash in site.data.projets %}
+  {% assign projet = projet_hash[1] %}
+  <div class="col col-12 sm-col-6 px1 my4 center">
+    <a href="{{ projet.link_to }}" title="Lien vers le projet {{ projet.title }}">
+      <amp-img src="{{ projet.image }}"
+      width="150"
+      height="150"
+      alt="Logo du projet {{ projet.title }}"
+      noloading></amp-img>
+    </a>
+    <a href="{{ projet.link_to }}" title="Lien vers le projet {{ projet.title }}" class="no-underline">
+      <h2 class="mt1 orange center">{{ projet.title }}</h2>
+    </a>
+    <p class="h4 mb2">
+      {{ projet.administration }}
+    </p>
+    <p>
+      {{ projet.description }}
+    </p>
+  </div>
+  {% endfor %}
+</div>

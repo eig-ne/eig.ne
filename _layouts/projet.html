@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign projet = site.data.projets[page.title] %}
+
+<div class="clearfix my4 flex items-center">
+  <div class="col col-3 pr4">
+    <amp-img src="{{ projet.image }}"
+    width="150"
+    height="150"
+    layout="responsive"
+    alt="Logo du projet {{ projet.title }}"
+    noloading></amp-img>
+  </div>
+  <div class="col col-9 pl4">
+    <h1 class="mb1 orange">{{ projet.title }}</h1>
+    <h3>{{ projet.description }}</h3>
+  </div>
+</div>
+
+<div class="mt4 mb2">
+  <amp-img src="{% link assets/images/iconmonstr-building.svg %}"
+  width="20"
+  height="20"
+  alt="Icône building"
+  class="mr2 align-middle"
+  noloading></amp-img>
+  <h3 class="inline mb4 orange"><a href="{{ projet.administration_website }}" title="Site web de {{ projet.administration }}" class="no-underline">{{ projet.administration }}</a></h3>
+</div>
+<div class="mb4">
+  <amp-img src="{% link assets/images/iconmonstr-calendar.svg %}"
+  width="20"
+  height="20"
+  alt="Icône de calendrier"
+  class="mr2 align-middle"
+  noloading></amp-img>
+  <h3 class="inline">Promotion {{ projet.promotion }} — {{ projet.duration_months }} mois</h3>
+</div>
+
+<div class="projet-content my4">
+  {{ content }}
+</div>

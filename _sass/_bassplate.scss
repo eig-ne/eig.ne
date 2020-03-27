@@ -309,6 +309,10 @@ canvas {
   text-decoration: underline
 }
 
+.no-underline {
+  text-decoration: none
+}
+
 .truncate {
   max-width: 100%;
   overflow: hidden;
