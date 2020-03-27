@@ -4,7 +4,7 @@ layout: default
 {% assign projet = site.data.projets[page.title] %}
 
 <div class="clearfix my4 flex items-center">
-  <div class="col col-3 pr4">
+  <div class="col col-3 pr3">
     <amp-img src="{{ projet.image }}"
     width="150"
     height="150"
@@ -12,7 +12,7 @@ layout: default
     alt="Logo du projet {{ projet.title }}"
     noloading></amp-img>
   </div>
-  <div class="col col-9 pl4">
+  <div class="col col-9 pl3">
     <h1 class="mb1 orange">{{ projet.title }}</h1>
     <h3>{{ projet.description }}</h3>
   </div>
@@ -41,8 +41,13 @@ layout: default
   {{ content }}
 </div>
 
-<div class="mb4">
-  <a href="/projets.html" title="Liste des projets" class="ampstart-btn">
+<hr class="mb4">
+
+<div class="mb4 flex justify-between px1">
+  <a href="/projets.html" title="Liste des projets" class="ampstart-btn ampstart-btn-secondary">
     &laquo; Tous les projets
+  </a>
+  <a href="#" title="Candidater au projet" class="ampstart-btn">
+    Candidater
   </a>
 </div>
