@@ -7,3 +7,21 @@ twitter: # TODO
 
 sass:
     style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "projets"
+    values:
+      layout: "projet"
+
+collections:
+  projets:
+    output: true
+    permalink: /projets/:year/:title.html
