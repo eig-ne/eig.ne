@@ -1,8 +1,7 @@
 {% if page.hero %}
-<div class="center">
-  <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="404" height="720" alt="EIG Niger" layout="responsive" src="{% link /assets/images/hero.jpg %}" media="(max-width: 415px)"></amp-img>
-    <amp-img height="667" alt="EIG Niger" layout="fixed-height" src="{% link /assets/images/hero.jpg %}" media="(min-width: 416px)"></amp-img>
+<div class="center m-auto mb4" style="max-width: 850px">
+  <figure class="m0 relative">
+    <amp-img width="600" height="400" alt="EIG Niger" layout="responsive" src="{% link /assets/images/hero.jpg %}"></amp-img>
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p4">
         <h1 class="ampstart-fullpage-hero-heading">
@@ -11,9 +10,6 @@
           </span>
         </h1>
       </header>
-      <footer class="absolute left-0 right-0 bottom-0">
-        <a class="ampstart-btn inline-block ampstart-fullpage-hero-cta h5 m3 text-decoration-none" href="#programme">Découvrir le programme</a>
-      </footer>
     </figcaption>
   </figure>
 </div>
