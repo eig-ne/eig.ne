@@ -1,0 +1,35 @@
+- question: "Comment savoir de combien de compétences EIG j'ai besoin ?"
+  reponse: "<p>Cela dépend du périmètre de votre projet et des compétences que vous recherchez. À noter : dans la plupart des cas, les équipes comprennent au moins 2 compétences différentes (design et développement, développement et datasciences, deux compétences de développement différentes, etc.).<p>"
+
+- question: "Je manque de compétences techniques : comment définir les profils d’EIG dont j’ai besoin pour réaliser mon projet ?"
+  reponse: "<p>Vous pouvez en premier lieu prendre contact avec votre direction des systèmes d'information pour pré-identifier les compétences nécessaires .</p><p>Par ailleurs, vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">prendre contact avec nous</a>. Nous essayerons autant que possible de vous mettre en relation avec des personnes pouvant vous aider dans votre ministère.</p><p>Enfin, ne vous inquiétez pas si vous n’êtes pas tout à fait sûr des compétences recherchées : si votre projet est sélectionné, les profils EIG recherchés seront retravaillés et précisés avec vous avant le lancement de l’appel à candidatures.</p>"
+
+- question: "Comment est formalisé le cadre de collaboration entre les ministères, l'ANSI et les équipes d'EIG ?"
+  reponse: "<p>TODO</p>"
+
+- question: "Quels sont les engagements que je dois respecter en participant au programme ?"
+  reponse: "<p>Pour participer au programme EIG.ne et afin d'assurer le succès des projets, il est demandé aux ministères de :
+    <ul>
+    <li>Proposer un cadre de travail propice aux entrepreneurs (matériel, autonomie, ouverture, possibilité de travailler hors les murs, en télétravail ou ailleurs)</li>
+    <li>Participer au programme d’accompagnement mis en place par l’ANSI</li>
+    <li>Assurer la disponibilité des DSI pour intégrer et maintenir les développements</li>
+    <li>Assurer du portage de haut niveau</li>
+    <li>Garantir la mise à disposition en open source des développements réalisés</li>
+    <li>Valoriser les résultats des développements réalisés dans des actions de communication ou événements organisés à l’initiative de l’ANSI</li>
+    </ul>
+    </p>"
+
+- question: "Quel est le rôle de l'équipe projet du ministère ? Quels sont les profils dans cette équipe ?"
+  reponse: "<p>Le ministère qui accueille une équipe d'EIG joue plusieurs rôle. Un rôle opérationnel de chefferie de projet d'abord, pour porter le projet en interne, suivre l'avancement du projet, informer la hiérarchie du travail réalisé, etc. Il s'agit également de guider et soutenir l'équipe d'EIG : les orienter dans le ministère, en s’assurant qu’ils disposent de toutes les ressources nécessaires (notamment techniques et en données), et en facilitant les démarches juridiques et administratives éventuelles.</p><p>En général, les profils sont des agents publics qui ont un profil métier (issus de la direction pour laquelle le projet est réalisé) et un profil technique (DSI ou autre, pour échanger sur les choix techniques des EIG). Le temps hebdomadaire investi dans le projet EIG sera un élément important d’appréciation des projets. En moyenne, les mentors investissent entre 30% et 40% de leur temps dans leur projet EIG (et certains en investissent 100% !).</p>"
+
+- question: "Le projet peut-il être encadré par 2 agents publics ?"
+  reponse: "<p>Oui, tout à fait, cela peut être un correspondant métier et un correspondant technique !</p>"
+
+- question: "Combien de temps prend la constitution d’un dossier de réponse à l’appel à projets ?"
+  reponse: "<p>Le temps de constitution est variable, mais nous avons volontairement limité la longueur du dossier : n’hésitez pas à être précis et concis !</p>"
+
+- question: "En cas de sélection, comment se passe le comité de sélection ?"
+  reponse: "<p>CONFIRMER SI CETTE QUESTION EST PERTINENTE EN FONCTION DE LAPPROCHE CHOISIE - Les agents publics qui ont présenté un projet sont invités à le présenter devant un comité de sélection, notamment en utilisant un support de présentation sous forme de diapositives (pitchs).</p><p>Plus d’informations seront envoyées aux ministères présélectionnées.</p>"
+
+- question: "Vous n’avez pas trouvé de réponse à votre question ?"
+  reponse: "<p>Vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">nous contacter</a> et nous vous répondrons rapidement</p>"
