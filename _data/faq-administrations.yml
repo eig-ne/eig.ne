@@ -8,7 +8,7 @@
   reponse: "<p>TODO</p>"
 
 - question: "Quels sont les engagements que je dois respecter en participant au programme ?"
-  reponse: "<p>Pour participer au programme EIG et afin d'assurer le succès des défis, il est demandé aux administrations de :
+  reponse: "<p>Pour participer au programme EIG et afin d'assurer le succès des projets, il est demandé aux administrations de :
     <ul>
     <li>Proposer un cadre de travail propice aux entrepreneurs (matériel, autonomie, ouverture, possibilité de travailler hors les murs, en télétravail ou ailleurs)</li>
     <li>Participer au programme d’accompagnement mis en place par l’ANSI</li>
@@ -20,9 +20,9 @@
     </p>"
 
 - question: "Quel est le rôle de l'équipe projet de l'administration ? Quels sont les profils dans cette équipe ?"
-  reponse: "<p>L'administration qui accueille une équipe d'EIG joue plusieurs rôle. Un rôle opérationnel de chefferie de projet d'abord, pour porter le projet en interne, suivre l'avancement du projet, informer la hiérarchie du travail réalisé, etc. Il s'agit également de guider et soutenir l'équipe d'EIG : les orienter dans l’administration, en s’assurant qu’ils disposent de toutes les ressources nécessaires (notamment techniques et en données), et en facilitant les démarches juridiques et administratives éventuelles.</p><p>En général, les profils sont des agents publics qui ont un profil métier (issus de la direction pour laquelle le projet est réalisé) et un profil technique (DSI ou autre, pour échanger sur les choix techniques des EIG). Le temps hebdomadaire investi dans le défi EIG sera un élément important d’appréciation des défis. En moyenne, les mentors investissent entre 30% et 40% de leur temps dans leur projet EIG (et certains en investissent 100% !).</p>"
+  reponse: "<p>L'administration qui accueille une équipe d'EIG joue plusieurs rôle. Un rôle opérationnel de chefferie de projet d'abord, pour porter le projet en interne, suivre l'avancement du projet, informer la hiérarchie du travail réalisé, etc. Il s'agit également de guider et soutenir l'équipe d'EIG : les orienter dans l’administration, en s’assurant qu’ils disposent de toutes les ressources nécessaires (notamment techniques et en données), et en facilitant les démarches juridiques et administratives éventuelles.</p><p>En général, les profils sont des agents publics qui ont un profil métier (issus de la direction pour laquelle le projet est réalisé) et un profil technique (DSI ou autre, pour échanger sur les choix techniques des EIG). Le temps hebdomadaire investi dans le projet EIG sera un élément important d’appréciation des projets. En moyenne, les mentors investissent entre 30% et 40% de leur temps dans leur projet EIG (et certains en investissent 100% !).</p>"
 
-- question: "Le défi peut-il être encadré par 2 agents publics ?"
+- question: "Le projet peut-il être encadré par 2 agents publics ?"
   reponse: "<p>Oui, tout à fait, cela peut être un correspondant métier et un correspondant technique !</p>"
 
 - question: "Combien de temps prend la constitution d’un dossier de réponse à l’appel à projets ?"

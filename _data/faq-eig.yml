@@ -10,11 +10,11 @@
       </ul>
     </p>"
 
-- question: "Combien de temps dure un défi ?"
-  reponse: "<p>Le défi dure 7 mois, d'août 2020 à février 2021. Pendant ce temps, les entrepreneurs se consacrent exclusivement au programme à temps plein, sans avoir d'autres engagements professionnels.</p>"
+- question: "Combien de temps dure un projet ?"
+  reponse: "<p>Le projet dure 7 mois, d'août 2020 à février 2021. Pendant ce temps, les entrepreneurs se consacrent exclusivement au programme à temps plein, sans avoir d'autres engagements professionnels.</p>"
 
 - question: "Quels sont les engagements que je dois respecter en participant au programme ?"
-  reponse: "<p>Pour participer au programme EIG et afin d'assurer le succès des défis, il est demandé aux EIG de :
+  reponse: "<p>Pour participer au programme EIG et afin d'assurer le succès des projets, il est demandé aux EIG de :
     <ul>
     <li>Être pleinement consacré, durant le temps de la promotion EIG.ne, au développement du projet EIG (ne pas prendre d’autres engagements contractuels)</li>
     <li>Assurer une cohésion au sein de l’équipe d’EIG qui accompagnera l’administration</li>
@@ -25,9 +25,9 @@
     </p>"
 
 - question: "Où travaillent les EIG ?"
-  reponse: "<p>Les EIG travaillent par équipe, chacune située dans l’administration proposant le défi. Le programme d’accompagnement organise des temps d’échanges entre EIG et un lieu où ils peuvent se rencontrer en dehors de leur administration, en accord avec leurs mentors.</p>"
+  reponse: "<p>Les EIG travaillent par équipe, chacune située dans l’administration proposant le projet. Le programme d’accompagnement organise des temps d’échanges entre EIG et un lieu où ils peuvent se rencontrer en dehors de leur administration, en accord avec leurs mentors.</p>"
 
-- question: "Au terme d’un défi, comment les défis sont-ils pérennisés ?"
+- question: "Au terme d’un projet, comment sont-ils pérennisés ?"
   reponse: "<p>Les outils continuent à être maintenus et développés par les équipes de l’administration d’accueil. D’autres sont mêmes déployés dans d’autres services. De plus, l’obligation, sauf dérogation, de verser les développements réalisés en open source rend leur maintien possible par tous. Le programme EIG.ne dispose d’une organisation sur GitHub pour y regrouper les dépôts publiés.</p>"
 
 - question: "Vous n’avez pas trouvé de réponse à votre question ?"
