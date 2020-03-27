@@ -1,16 +1,16 @@
-- question: "Comment savoir si je ferais mieux de recruter 2 ou 3 EIG ?"
-  reponse: "<p>Cela dépend du périmètre de votre défi et des compétences que vous recherchez. À noter : dans la plupart des cas, les équipes sont constituées de 2 EIG.<p>"
+- question: "Comment savoir de combien de compétences EIG j'ai besoin ?"
+  reponse: "<p>Cela dépend du périmètre de votre projet et des compétences que vous recherchez. À noter : dans la plupart des cas, les équipes comprennent au moins 2 compétences différentes (design et développement, développement et datasciences, deux compétences de développement différentes, etc.).<p>"
 
-- question: "Je manque de compétences techniques : comment définir les profils d’EIG dont j’ai besoin pour réaliser mon défi ?"
-  reponse: "<p>Vous pouvez en premier lieu prendre contact avec votre direction des systèmes d'information.</p><p>Par ailleurs, vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">prendre contact avec nous</a>. Nous essayerons autant que possible de vous mettre en relation avec des personnes pouvant vous aider dans votre administration.</p><p>Enfin, ne vous inquiétez pas si vous n’êtes pas tout à fait sûr des compétences recherchées : si votre défi est sélectionné, les profils EIG recherchés seront retravaillés et précisés avec vous avant le lancement de l’appel à candidatures.</p>"
+- question: "Je manque de compétences techniques : comment définir les profils d’EIG dont j’ai besoin pour réaliser mon projet ?"
+  reponse: "<p>Vous pouvez en premier lieu prendre contact avec votre direction des systèmes d'information pour pré-identifier les compétences nécessaires .</p><p>Par ailleurs, vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">prendre contact avec nous</a>. Nous essayerons autant que possible de vous mettre en relation avec des personnes pouvant vous aider dans votre administration.</p><p>Enfin, ne vous inquiétez pas si vous n’êtes pas tout à fait sûr des compétences recherchées : si votre projet est sélectionné, les profils EIG recherchés seront retravaillés et précisés avec vous avant le lancement de l’appel à candidatures.</p>"
 
-- question: "Quel est le type de contrat des EIG ?"
+- question: "Comment est formalisé le cadre de collaboration entre les administrations, l'ANSI et les équipes d'EIG ?"
   reponse: "<p>TODO</p>"
 
 - question: "Quels sont les engagements que je dois respecter en participant au programme ?"
   reponse: "<p>Pour participer au programme EIG et afin d'assurer le succès des défis, il est demandé aux administrations de :
     <ul>
-    <li>Proposer un cadre de travail propice aux entrepreneurs (matériel, autonomie, ouverture)</li>
+    <li>Proposer un cadre de travail propice aux entrepreneurs (matériel, autonomie, ouverture, possibilité de travailler hors les murs, en télétravail ou ailleurs)</li>
     <li>Participer au programme d’accompagnement mis en place par l’ANSI</li>
     <li>Assurer la disponibilité des DSI pour intégrer et maintenir les développements</li>
     <li>Assurer du portage de haut niveau</li>
@@ -19,20 +19,17 @@
     </ul>
     </p>"
 
-- question: "À la charge de qui sont les frais annexes liés à la présence des EIG, de type frais de déplacement ?"
-  reponse: "<p>Les autres frais liés à la présence des EIG (notamment les frais de déplacement) sont à la charge de l’administration d’accueil.</p>"
+- question: "Quel est le rôle de l'équipe projet de l'administration ? Quels sont les profils dans cette équipe ?"
+  reponse: "<p>L'administration qui accueille une équipe d'EIG joue plusieurs rôle. Un rôle opérationnel de chefferie de projet d'abord, pour porter le projet en interne, suivre l'avancement du projet, informer la hiérarchie du travail réalisé, etc. Il s'agit également de guider et soutenir l'équipe d'EIG : les orienter dans l’administration, en s’assurant qu’ils disposent de toutes les ressources nécessaires (notamment techniques et en données), et en facilitant les démarches juridiques et administratives éventuelles.</p><p>En général, les profils sont des agents publics qui ont un profil métier (issus de la direction pour laquelle le projet est réalisé) et un profil technique (DSI ou autre, pour échanger sur les choix techniques des EIG). Le temps hebdomadaire investi dans le défi EIG sera un élément important d’appréciation des défis. En moyenne, les mentors investissent entre 30% et 40% de leur temps dans leur projet EIG (et certains en investissent 100% !).</p>"
 
-- question: "Quel est généralement le profil des mentors opérationnels ? Quel est leur rôle ?"
-  reponse: "<p>Les mentors opérationnels sont en charge de permettre aux EIG de mener au mieux leur défi, en les orientant dans l’administration, en s’assurant qu’ils disposent de toutes les ressources nécessaires (notamment techniques et en données), et en facilitant les démarches juridiques et administratives éventuelles.</p><p>En général, les mentors opérationnels ont un profil « métier », et peuvent faire bénéficier les EIG de leur expérience du terrain.</p><p>On attend surtout d’un mentor qu’il soit passionné par le défi EIG qu’il porte. Le temps hebdomadaire investi dans le défi EIG sera un élément important d’appréciation des défis. En moyenne, les mentors investissent 30 à 40% de leur temps dans leur défi EIG (et certains en investissent 100% !).</p>"
+- question: "Le défi peut-il être encadré par 2 agents publics ?"
+  reponse: "<p>Oui, tout à fait, cela peut être un correspondant métier et un correspondant technique !</p>"
 
-- question: "Le défi peut-il être encadré par 2 mentors opérationnels ?"
-  reponse: "<p>Oui, tout à fait !</p>"
-
-- question: "Combien de temps prend la constitution d’un dossier de réponse à l’appel à candidature ?"
+- question: "Combien de temps prend la constitution d’un dossier de réponse à l’appel à projets ?"
   reponse: "<p>Le temps de constitution est variable, mais nous avons volontairement limité la longueur du dossier : n’hésitez pas à être précis et concis !</p>"
 
-- question: "En cas de sélection, comment se passe le jury d’admission ?"
-  reponse: "<p>Les mentors opérationnels des défis présélectionnés seront conviés à pitcher leur défi devant le jury d’admission, notamment en utilisant les slides jointes au dossier de réponse à l’appel à projets (qui peuvent être modifiées entre temps).</p><p>Plus d’informations seront envoyées aux administrations présélectionnées.</p>"
+- question: "En cas de sélection, comment se passe le comité de sélection ?"
+  reponse: "<p>CONFIRMER SI CETTE QUESTION EST PERTINENTE EN FONCTION DE LAPPROCHE CHOISIE - Les agents publics qui ont présenté un projet sont invités à le présenter devant un comité de sélection, notamment en utilisant un support de présentation sous forme de diapositives (pitchs).</p><p>Plus d’informations seront envoyées aux administrations présélectionnées.</p>"
 
 - question: "Vous n’avez pas trouvé de réponse à votre question ?"
   reponse: "<p>Vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">nous contacter</a> et nous vous répondrons rapidement</p>"
