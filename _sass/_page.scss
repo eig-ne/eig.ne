@@ -39,6 +39,18 @@ p {
   color: $orange;
 }
 
+.banner {
+  padding: 1em 2em;
+  margin: 2em;
+  background: $green;
+  color: #fff;
+
+  .banner-title {
+    font-size: 1.5em;
+    margin-bottom: 2em
+  }
+}
+
 blockquote {
   font-style: italic;
   border-left: 2px solid #fff;
