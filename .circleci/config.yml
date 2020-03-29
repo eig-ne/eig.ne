@@ -23,13 +23,6 @@ jobs:
           name: Bundle Install
           command: bundle check || bundle install --path vendor/bundle
 
-      - run:
-          name: Install html5validator
-          command: |
-            sudo apt-get update
-            sudo apt-get install -y python3-pip
-            pip3 install --user --upgrade html5validator # will install in $HOME/.local
-
       - save_cache:
           key: cache-v1-{{ checksum "Gemfile.lock" }}
           paths:
@@ -51,8 +44,4 @@ jobs:
 
       - run:
           name: Check HTML common mistakes
-          command: bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external --empty-alt-ignore --check-img-http
-
-      - run:
-          name: Validate HTML spec compliance
-          command: $HOME/.local/bin/html5validator --root _site
+          command: bundle exec htmlproofer _site
