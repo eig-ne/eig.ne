@@ -1,0 +1,47 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6.1-node-browsers
+
+    steps:
+      - checkout
+
+      - run:
+          name: Update bundler
+          command: gem install bundler
+
+      - restore_cache:
+          keys:
+            - cache-v1-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install --path vendor/bundle
+
+      - save_cache:
+          key: cache-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+            - ~/.local
+            - ~/.cache
+
+      - run:
+          name: Check Jekyll configuration
+          command: bundle exec jekyll doctor
+
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+
+      - run:
+          name: Check homepage was compiled
+          command: test -s _site/index.html
+
+      - run:
+          name: Run AMP validator
+          command: |
+            sudo npm install -g amphtml-validator
+            for file in $(find _site -name '*.html' ! -name 'contact.html');
+              do amphtml-validator $file;
+            done
