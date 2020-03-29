@@ -11,10 +11,6 @@ jobs:
           name: Update bundler
           command: gem install bundler
 
-      - run:
-          name: Generate Gemlock
-          command: bundle lock
-
       - restore_cache:
           keys:
             - cache-v1-{{ checksum "Gemfile.lock" }}
@@ -46,6 +42,6 @@ jobs:
           name: Run AMP validator
           command: |
             sudo npm install -g amphtml-validator
-            for file in $(find _site -name '*.html');
+            for file in $(find _site -name '*.html' ! -name 'contact.html');
               do amphtml-validator $file;
             done
