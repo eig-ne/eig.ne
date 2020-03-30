@@ -90,9 +90,13 @@ blockquote {
   color: #000;
 }
 
+.hero-background {
+  background: rgba(0, 0, 0, .3);
+  flex: 1;
+}
+
 .ampstart-fullpage-hero-heading {
   display: inline-block;
-  background: rgba(0, 0, 0, .3);
   padding: 0 1rem .2rem;
   color: #fff;
 }
