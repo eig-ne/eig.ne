@@ -30,5 +30,8 @@
 - question: "Au terme d’un projet, comment sont-ils pérennisés ?"
   reponse: "<p>Les outils continuent à être maintenus et développés par les équipes du ministère d’accueil. D’autres sont mêmes déployés dans d’autres services. De plus, l’obligation, sauf dérogation, de verser les développements réalisés en open source rend leur maintien possible par tous. Le programme EIG.ne dispose d’une organisation sur GitHub pour y regrouper les dépôts publiés.</p>"
 
+- question: "Comment candidater pour devenir EIG ?"
+  reponse: "<p>Pour candidater, vous devez utiliser <a href=\"/candidater.html\" title=\"Formulaire de candidature\">le formulaire prévu à cet effet</a>. Avant de candidater, parcourez <a href=\"/projets.html\" title=\"Projets EIG.ne\">les projets</a> de la promotion 1 du programme EIG.ne.</p>"
+
 - question: "Vous n’avez pas trouvé de réponse à votre question ?"
   reponse: "<p>Vous pouvez <a href=\"/contact.html\" title=\"Formulaire de contact\">nous contacter</a> et nous vous répondrons rapidement</p>"
