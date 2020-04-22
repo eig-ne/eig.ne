@@ -29,6 +29,41 @@ p {
   border: 1px solid #c9d3df;
 }
 
+.hero {
+  background-color: #e1ecdd;
+  background-image: url("/assets/images/topography.svg");
+}
+
+.hero-container {
+  max-width: 800px;
+  padding: 5em 1em;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 3em;
+  font-family: Raleway, serif;
+}
+
+@keyframes mark {
+  to {
+    background-position: -100%;
+  }
+}
+
+.mark-white {
+  position: relative;
+  transition: background-position 0.4s;
+  transform: skewX(30deg);
+  padding: 0.25em 0.5em;
+  animation: mark linear 1s forwards;
+  background: linear-gradient(to right, rgba(#000, 0) 50%, rgba(#fff, 0.85) 50%);
+  background-position: 0;
+  background-size: 200%;
+}
+
 .ampstart-footer {
   padding: 3rem 0 2rem 0;
   background-color: #fff;
@@ -131,7 +166,8 @@ blockquote {
 }
 
 .h1,.h2,.h3,h1,h2,h3 {
-  font-family: Playfair Display, serif;
+  font-family: Raleway, serif;
+  font-weight: 400;
 }
 
 .h1, h1 {
