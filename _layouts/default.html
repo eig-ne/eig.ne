@@ -7,7 +7,7 @@
   {% include navbar.html %}
   {% include hero.html %}
 
-  <main id="content" role="main" class="px1 pt2">
+  <main id="content" {% if page.hero %}class="pt2"{% else %}class="px1 pt2 container" {% endif %}role="main" >
   {{ content }}
   </main>
 
